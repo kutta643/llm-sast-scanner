@@ -167,6 +167,7 @@ The main entry point. Defines the detection workflow, taint propagation rules, a
 | SecExample | 0.889 | 1.000 | 0.941 | 8 | 1 | 0 |
 | VulnerableApp | 0.900 | 0.900 | 0.900 | 9 | 1 | 1 |
 | verademo | 0.929 | 1.000 | 0.963 | 13 | 1 | 0 |
+| **Global** | **0.930** | **0.981** | **0.955** | **53** | **4** | **1** |
 
 
 ---
