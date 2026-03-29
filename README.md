@@ -163,11 +163,11 @@ The main entry point. Defines the detection workflow, taint propagation rules, a
 
 | Project | Recall | Precision | F1 | TP | FN | FP |
 |---------|:------:|:---------:|:--:|:--:|:--:|:--:|
-| JavaSecLab | 0.958 | 1.000 | 0.979 | 23 | 1 | 0 |
+| JavaSecLab | 0.957 | 1.000 | 0.978 | 22 | 1 | 0 |
 | SecExample | 0.889 | 1.000 | 0.941 | 8 | 1 | 0 |
 | VulnerableApp | 0.900 | 0.900 | 0.900 | 9 | 1 | 1 |
 | verademo | 0.929 | 1.000 | 0.963 | 13 | 1 | 0 |
-| **Global** | **0.930** | **0.981** | **0.955** | **53** | **4** | **1** |
+| **Global** | **0.929** | **0.981** | **0.954** | **52** | **4** | **1** |
 
 
 ---
