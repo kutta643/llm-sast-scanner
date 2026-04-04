@@ -208,7 +208,7 @@ Judge Verdict:  CONFIRMED / LIKELY / NEEDS CONTEXT / FALSE POSITIVE
 **Trust Boundary**
 - Operator self-harm: skip findings where the "attacker" input comes from operator-written config files (YAML/JSON/TOML), CLI flags the operator supplies themselves (`--file`, `--url`, `--chain-id`), or commands the operator must explicitly run.
 - Trusted admin role: skip `privilege_escalation`/`business_logic` for actions behind `onlyAdmin`/`onlyOwner`/`onlyPoolAdmin` when that role is trusted by design. Only report if an unprivileged user can reach the same path.
-- Internal-only service: skip `authentication` when the entire codebase has zero auth AND references internal infra (VPC vars, `EC2_INSTANCE_ID`, Eureka, Consul). Auth is at the network layer.
+- Internal-only service: skip `authentication` and `information_disclosure` when the entire codebase has zero auth AND references internal infra (VPC vars, `EC2_INSTANCE_ID`, Eureka, Consul). Auth is at the network layer.
 - Code generators: skip `injection`/`path_traversal`/`rce` for codegen tools (`protoc`, `swagger-codegen`, etc.) whose input comes from developer-controlled source comments, annotations, or local config.
 
 **Protocol & Architecture**
